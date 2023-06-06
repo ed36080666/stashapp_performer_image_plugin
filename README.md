@@ -75,7 +75,7 @@ Primary background images are full-page photos with reduced opacity placed onto 
 
 Once images are added to the gallery and populated in the IndexedDB, a random image will display on page load.
 
-[Example Image](https://raw.githubusercontent.com/ed36080666/stashapp_performer_image_plugin/main/_assets/background_image_example.jpg)
+[Example Image](https://raw.githubusercontent.com/ed36080666/stashapp_performer_image_plugin/main/background_image_example.jpg)
 
 
 ## Performer Images
@@ -85,7 +85,7 @@ Performer image overrides use tags and galleries to support multiple performer i
 
 To swap between performer image defaults, presets, and randomization, this script injects a select at the top right corner of the nav bar. You will need to map options in this select with the tag IDs you are using to manage your content. 
 
-![image](https://raw.githubusercontent.com/ed36080666/stashapp_performer_image_plugin/main/_assets/select.JPG)
+![image](https://raw.githubusercontent.com/ed36080666/stashapp_performer_image_plugin/main/select.JPG)
 
 ### Randomized Performer Images
 Randomized performer images pulls photos from galleries and chooses a random one every time a performer image node is rendered. You will need to create a single gallery for each performer and apply a global tag you will define.
@@ -151,4 +151,4 @@ Performer specific background images are full-page, reduced opacity background i
 4. You do _not_ need to add anything to the select box for performer background images.
 
 
-[Example Image](https://raw.githubusercontent.com/ed36080666/stashapp_performer_image_plugin/main/_assets/performer_background_image_example.jpg)
+[Example Image](https://raw.githubusercontent.com/ed36080666/stashapp_performer_image_plugin/main/performer_background_image_example.jpg)
