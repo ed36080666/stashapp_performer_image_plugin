@@ -7,8 +7,8 @@ This is a custom StashApp JavaScript plugin for setting different images for per
 A workaround for StashApp only supporting single performer images. With the addition of custom Javascript support,  I hacked together a solution using tagging and galleries to cache images in the browser's IndexedDB and swap `src` attributes during render.
 
 You can...
-1. Set lots of different performer images with presets and randomization
-2. Display full-page, reduced opacity background images to show beneath all page content
+1. Set lots of different performer images with presets and randomization.
+2. Display full-page, reduced opacity background images to show beneath all page content. [Example](https://raw.githubusercontent.com/ed36080666/stashapp_performer_image_plugin/main/background_image_example.jpg).
 
 By applying a series of galleries and tags to your content, the script will build an IndexedDB in the browser using GraphQL calls to retrieve and cache images. Using MutationObserver, the script watches for performer image nodes to be rendered and swaps `src` attributes using what is stored in the IndexedDB.
 
