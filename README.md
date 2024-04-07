@@ -1,5 +1,5 @@
 > [!NOTE]  
-> I am currently in the processing of breaking this large mess of custom JavaScript apart into distributable plugins that can be installed via the Stash app UI in Settings > Plugins. I plan to have 2 separate plugins: (1) background images and (2) multiple performer images.
+> I am currently in the processing of breaking this large mess of custom JavaScript apart into distributable plugins that can be installed via the Stash app UI in Settings > Plugins. I plan to have 2 separate plugins: (1) background images and (2) multiple performer images. I highly recommend using the distributable pluginss because I will sunset this custom JS version upon reaching feature parity.
 > 1. [Background Images Plugin](https://github.com/ed36080666/stashapp_plugin_background_images)
 > 2. Multiple performer images plugin coming soon...
 
